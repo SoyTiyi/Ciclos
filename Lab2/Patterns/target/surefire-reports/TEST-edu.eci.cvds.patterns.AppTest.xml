@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.patterns.AppTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.patterns.AppTest" time="0.263" tests="1" errors="0" skipped="0" failures="0">
+>>>>>>> d1863c3471dfc4ac1fc1d87431651bed82383fef
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -15,11 +19,17 @@
     <property name="java.vm.specification.version" value="11"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+<<<<<<< HEAD
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.7.10-hotspot\bin"/>
     <property name="sun.java.command" value="C:\Users\ADMINU~1\AppData\Local\Temp\surefire2445761778242083579\surefirebooter14765341771151732318.jar C:\Users\ADMINUSER\AppData\Local\Temp\surefire2445761778242083579 2020-08-13T08-20-51_659-jvmRun1 surefire8748491330080931450tmp surefire_017953914859696974615tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ADMINUSER\documents\ciclos\lab2\Patterns\target\test-classes;C:\Users\ADMINUSER\documents\ciclos\lab2\Patterns\target\classes;C:\Users\ADMINUSER\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ADMINUSER\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+=======
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\SANTIA~1\AppData\Local\Temp\surefire556383787835065731\surefirebooter1343824618906528272.jar C:\Users\Santiago Martínez\AppData\Local\Temp\surefire556383787835065731 2020-08-13T08-46-50_523-jvmRun1 surefire2563784227530074424tmp surefire_02421571681620793820tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab2\Patterns\target\test-classes;C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab2\Patterns\target\classes;C:\Users\Santiago Martínez\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Santiago Martínez\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+>>>>>>> d1863c3471dfc4ac1fc1d87431651bed82383fef
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ADMINUSER"/>
     <property name="user.language" value="es"/>
@@ -33,7 +43,12 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+<<<<<<< HEAD
     <property name="surefire.real.class.path" value="C:\Users\ADMINU~1\AppData\Local\Temp\surefire2445761778242083579\surefirebooter14765341771151732318.jar"/>
+=======
+    <property name="surefire.real.class.path" value="C:\Users\SANTIA~1\AppData\Local\Temp\surefire556383787835065731\surefirebooter1343824618906528272.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+>>>>>>> d1863c3471dfc4ac1fc1d87431651bed82383fef
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.7+10"/>
@@ -60,5 +75,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="shouldAnswerWithTrue" classname="edu.eci.cvds.patterns.AppTest" time="0.002"/>
+=======
+  <testcase name="shouldAnswerWithTrue" classname="edu.eci.cvds.patterns.AppTest" time="0.005"/>
+>>>>>>> d1863c3471dfc4ac1fc1d87431651bed82383fef
 </testsuite>
