@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: edu.eci.cvds.patterns.AppTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in edu.eci.cvds.patterns.AppTest
+=======
+<<<<<<< HEAD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in edu.eci.cvds.patterns.AppTest
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.263 s - in edu.eci.cvds.patterns.AppTest
+>>>>>>> d1863c3471dfc4ac1fc1d87431651bed82383fef
+>>>>>>> a565825875da6ed7e55688b9a34168d4eba442e2
