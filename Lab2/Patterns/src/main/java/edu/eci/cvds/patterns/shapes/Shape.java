@@ -1,5 +1,5 @@
-package edu.eci.patterns.shapes;
+package edu.eci.cvds.patterns.shapes;
 
-public interface shape {
+public interface Shape {
 	public int getNumberOfEdges();
 }
