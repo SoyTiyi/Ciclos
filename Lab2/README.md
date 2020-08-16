@@ -100,7 +100,7 @@ Pruebas:
 3. Pentagon: La instruccion se ejecuta correctamente y retorna el mensaje con el numero de lados
     - ![Pentagon](./Image/Pentagon.png)
 4. Hexagon: La instruccion se ejecuta correctamente y retorn el mensaje con el numero de lados
-    -![Hexagon](./Image/Hexagon.png)
+    - ![Hexagon](./Image/Hexagon.png)
 
 
 
