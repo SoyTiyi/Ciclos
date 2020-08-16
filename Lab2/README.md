@@ -94,9 +94,13 @@ Estaremos evitando que el sistema de control de versiones procese todos los arch
 ## Esqueleto de la Aplicacion
 Pruebas:
 1. Sin parametros: La instrucción se ejecuto correctamente, ya que este caso es evaluado en la clase principal (ShapeMain.java)
+    - ![Ninguna](./Image/ninguna.png)
 2. qwerty: La instruccion se ejecuta, ya que este tipo no esta validado por lo tanto la excepción es capturada y retorna el mensaje de que esa figura no es valida
-3. pentagon: La instruccion se ejecuta correctamente y retorna el mensaje con el numero de lados
-4. hexagon: La instruccion se ejecuta correctamente y retorn el mensaje con el numero de lados
+    - ![qwerty](./Image/qwerty.png)
+3. Pentagon: La instruccion se ejecuta correctamente y retorna el mensaje con el numero de lados
+    - ![Pentagon](./Image/Pentagon.png)
+4. Hexagon: La instruccion se ejecuta correctamente y retorn el mensaje con el numero de lados
+    -![Hexagon](./Image/Hexagon.png)
 
 
 
