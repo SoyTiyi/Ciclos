@@ -68,15 +68,15 @@ Con esta biblioteca, un desarrollador puede buscar todas las bibliotecas disponi
     package: Nombre del paquete principal de la aplicación, usaremos com.proyecto.demo.mvn 
     Compilar y Ejecutar
 3. Busque cuál es el objetivo del parámetro "package" y qué otros parámetros se podrían enviar al comando mvn:
-    - ~~~ $ mvn compile – compila el proyecto y deja el resultado en target/classes ~~~
-    - ~~~ $ mvn test – compila los test y los ejecuta ~~~
-    - ~~~$ mvn package – empaqueta el proyecto y lo dejará en taget/autentiaNegocio-1.0-SNAPSHOT.jar ~~~
-    - ~~~ $ mvn install – guarda el proyecto en el repositorio ~~~
-    - ~~~ $ mvn clean – borra el directorio de salida (target) ~~~
+    - "$ mvn compile – compila el proyecto y deja el resultado en target/classes"
+    - "$ mvn test – compila los test y los ejecuta"
+    - "$ mvn package – empaqueta el proyecto y lo dejará en taget/autentiaNegocio-1.0-SNAPSHOT.jar"
+    - "$ mvn install – guarda el proyecto en el repositorio"
+    - "$ mvn clean – borra el directorio de salida (target)"
 4. Busque cómo ejecutar desde línea de comandos, un proyecto maven y verifique la salida cuando se ejecuta con la clase App.java como parámetro en "mainClass":
-    - ~~~ exec:java -Dexec.mainClass="edu.eci.cvds.patterns.App" ~~~
+    - "exec:java -Dexec.mainClass="edu.eci.cvds.patterns.App" "
 5. Buscar cómo enviar parámetros al plugin "exec".
-    - ~~~ exec:java -Dexec.mainClass="edu.eci.cvds.patterns.App" -Dexec.args="arg1 ~~~
+    - "exec:java -Dexec.mainClass="edu.eci.cvds.patterns.App" -Dexec.args="arg1 " "
 
 ## Archivo .gitignore
 Git tiene una herramienta imprescindible casi en cualquier proyecto, el archivo "gitignore", que sirve para decirle a Git qué archivos o directorios completos debe ignorar y no subir al repositorio de código.
