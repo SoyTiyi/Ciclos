@@ -1,0 +1,6 @@
+1. De acuedo con lo indicado, y teniendo en cuenta que NO hay precondiciones, en qué casos de debería arrojar una excepción de tipo ExcepcionParametrosInvalidos?. Agregue esto a la especificación. 
+	- @throws ExcepcionParametrosInvalidos [
+	1. Que los dias de Antelacion sean Negativos
+	2. Que la tarifa base sea Negativa
+	3. Que la edad sea negativa
+	]
