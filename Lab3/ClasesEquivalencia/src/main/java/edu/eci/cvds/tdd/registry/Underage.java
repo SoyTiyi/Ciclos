@@ -9,7 +9,7 @@ public class Underage implements InterfaceVoter{
 
     @Override
     public RegisterResult evalVoter(Person p) {
-        if(p.getAge()<18){
+        if(1<=p.getAge() && p.getAge()<18){
             return RegisterResult.UNDERAGE;
         } else {
             return next.evalVoter(p);

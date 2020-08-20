@@ -9,10 +9,19 @@ public class Duplicated implements InterfaceVoter{
 
     @Override
     public RegisterResult evalVoter(Person p) {
-        if(!p.isAlive()){
-            return RegisterResult.DEAD;
+        if(validateId(p)){
+            return RegisterResult.DUPLICATED;
         } else {
             return next.evalVoter(p);
+        }
+    }
+
+    private boolean validateId(Person p){
+        if(Registry.personasRegistradas.contains(p.getId())){
+            return true;
+        }
+        else{
+            return false;
         }
     }
 }
