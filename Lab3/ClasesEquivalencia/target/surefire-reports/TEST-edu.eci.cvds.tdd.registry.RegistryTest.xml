@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.tdd.registry.RegistryTest" time="0.014" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.tdd.registry.RegistryTest" time="0.102" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab3\ClasesEquivalencia\target\test-classes;C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab3\ClasesEquivalencia\target\classes;C:\Users\Santiago Martínez\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Santiago Martínez\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Santiago Martínez\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-RC1\junit-jupiter-api-5.7.0-RC1.jar;C:\Users\Santiago Martínez\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Santiago Martínez\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Santiago Martínez\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-RC1\junit-platform-commons-1.7.0-RC1.jar;"/>
+    <property name="java.class.path" value="C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab3\ClasesEquivalencia\target\test-classes;C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab3\ClasesEquivalencia\target\classes;C:\Users\Santiago Martínez\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Santiago Martínez\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Santiago Martínez\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-RC1\junit-jupiter-api-5.7.0-RC1.jar;C:\Users\Santiago Martínez\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Santiago Martínez\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Santiago Martínez\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-RC1\junit-platform-commons-1.7.0-RC1.jar;C:\Users\Santiago Martínez\.m2\repository\edu\eci\cvds\aerodescuentos\1.0.0\aerodescuentos-1.0.0.jar;"/>
     <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Users\Santiago Martínez\AppData\Local\Programs\AdoptOpenJDK\bin"/>
-    <property name="sun.java.command" value="C:\Users\SANTIA~1\AppData\Local\Temp\surefire8344777913895684727\surefirebooter12593042744342450562.jar C:\Users\Santiago Martínez\AppData\Local\Temp\surefire8344777913895684727 2020-08-20T09-05-59_618-jvmRun1 surefire74310552734305483tmp surefire_02811553379846059945tmp"/>
+    <property name="sun.java.command" value="C:\Users\SANTIA~1\AppData\Local\Temp\surefire2754049455373323914\surefirebooter8857111157622514090.jar C:\Users\Santiago Martínez\AppData\Local\Temp\surefire2754049455373323914 2020-08-20T15-55-20_304-jvmRun1 surefire15799352707846767676tmp surefire_016826935946651068524tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab3\ClasesEquivalencia\target\test-classes;C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab3\ClasesEquivalencia\target\classes;C:\Users\Santiago Martínez\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Santiago Martínez\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Santiago Martínez\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-RC1\junit-jupiter-api-5.7.0-RC1.jar;C:\Users\Santiago Martínez\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Santiago Martínez\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Santiago Martínez\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-RC1\junit-platform-commons-1.7.0-RC1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab3\ClasesEquivalencia\target\test-classes;C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab3\ClasesEquivalencia\target\classes;C:\Users\Santiago Martínez\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Santiago Martínez\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Santiago Martínez\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-RC1\junit-jupiter-api-5.7.0-RC1.jar;C:\Users\Santiago Martínez\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Santiago Martínez\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Santiago Martínez\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-RC1\junit-platform-commons-1.7.0-RC1.jar;C:\Users\Santiago Martínez\.m2\repository\edu\eci\cvds\aerodescuentos\1.0.0\aerodescuentos-1.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Santiago Martínez"/>
     <property name="user.language" value="es"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\SANTIA~1\AppData\Local\Temp\surefire8344777913895684727\surefirebooter12593042744342450562.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\SANTIA~1\AppData\Local\Temp\surefire2754049455373323914\surefirebooter8857111157622514090.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.8+10"/>
@@ -60,9 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="validateInvalidAgeResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0.002"/>
-  <testcase name="validateDuplicatedResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0.003"/>
+  <testcase name="validateInvalidAgeResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0.095"/>
+  <testcase name="validateDuplicatedResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
   <testcase name="validateDeadResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
-  <testcase name="validateRegistryResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0.001"/>
-  <testcase name="validateUnderageResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0.002"/>
+  <testcase name="validateRegistryResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateUnderageResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
 </testsuite>

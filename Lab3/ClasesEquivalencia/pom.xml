@@ -30,8 +30,12 @@
       <artifactId>junit-jupiter-api</artifactId>
       <version>5.7.0-RC1</version>
       <scope>test</scope>
-  </dependency>
-  
+    </dependency>
+    <dependency>
+      <groupId>edu.eci.cvds</groupId>
+      <artifactId>aerodescuentos</artifactId>
+      <version>1.0.0</version>
+    </dependency>
   </dependencies>
 
   <build>
