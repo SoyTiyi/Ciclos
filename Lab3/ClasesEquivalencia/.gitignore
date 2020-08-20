@@ -1,5 +1,5 @@
 target/
-.casspath
+.classpath
 .project
 .settings
 .vscode
