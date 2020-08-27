@@ -1,99 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.patterns.AppTest" time="0.082" tests="1" errors="0" skipped="0" failures="0">
-=======
-<<<<<<< HEAD
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.patterns.AppTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
-=======
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.patterns.AppTest" time="0.263" tests="1" errors="0" skipped="0" failures="0">
->>>>>>> d1863c3471dfc4ac1fc1d87431651bed82383fef
->>>>>>> a565825875da6ed7e55688b9a34168d4eba442e2
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.patterns.AppTest" time="0.141" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\ADMINUSER\documents\ciclos\lab2\Patterns\target\test-classes;C:\Users\ADMINUSER\documents\ciclos\lab2\Patterns\target\classes;C:\Users\ADMINUSER\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ADMINUSER\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab2\Patterns\target\test-classes;C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab2\Patterns\target\classes;C:\Users\Santiago Martínez\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Santiago Martínez\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
-    <property name="user.timezone" value="America/Bogota"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-<<<<<<< HEAD
     <property name="user.country" value="CO"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.7.10-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMINU~1\AppData\Local\Temp\surefire2445761778242083579\surefirebooter14765341771151732318.jar C:\Users\ADMINUSER\AppData\Local\Temp\surefire2445761778242083579 2020-08-13T08-20-51_659-jvmRun1 surefire8748491330080931450tmp surefire_017953914859696974615tmp"/>
+    <property name="sun.boot.library.path" value="C:\Users\Santiago Martínez\AppData\Local\Programs\AdoptOpenJDK\bin"/>
+    <property name="sun.java.command" value="C:\Users\SANTIA~1\AppData\Local\Temp\surefire17384667026247467533\surefirebooter11209782534024266936.jar C:\Users\Santiago Martínez\AppData\Local\Temp\surefire17384667026247467533 2020-08-24T12-13-15_475-jvmRun1 surefire9491618159889465736tmp surefire_09238426264094535621tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\ADMINUSER\documents\ciclos\lab2\Patterns\target\test-classes;C:\Users\ADMINUSER\documents\ciclos\lab2\Patterns\target\classes;C:\Users\ADMINUSER\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ADMINUSER\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
-=======
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\SANTIA~1\AppData\Local\Temp\surefire8225763551880782428\surefirebooter3410579663104700145.jar C:\Users\Santiago Martínez\AppData\Local\Temp\surefire8225763551880782428 2020-08-13T09-08-18_995-jvmRun1 surefire9222710393098753724tmp surefire_0144217066410747432tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab2\Patterns\target\test-classes;C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab2\Patterns\target\classes;C:\Users\Santiago Martínez\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Santiago Martínez\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
->>>>>>> d1863c3471dfc4ac1fc1d87431651bed82383fef
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\ADMINUSER"/>
+    <property name="user.home" value="C:\Users\Santiago Martínez"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2020-04-14"/>
-    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.7.10-hotspot"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Users\Santiago Martínez\AppData\Local\Programs\AdoptOpenJDK"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\ADMINUSER\documents\ciclos\lab2\Patterns"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="basedir" value="C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab2\Patterns"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-<<<<<<< HEAD
-    <property name="surefire.real.class.path" value="C:\Users\SANTIA~1\AppData\Local\Temp\surefire8225763551880782428\surefirebooter3410579663104700145.jar"/>
-=======
-<<<<<<< HEAD
-    <property name="surefire.real.class.path" value="C:\Users\ADMINU~1\AppData\Local\Temp\surefire2445761778242083579\surefirebooter14765341771151732318.jar"/>
-=======
-    <property name="surefire.real.class.path" value="C:\Users\SANTIA~1\AppData\Local\Temp\surefire556383787835065731\surefirebooter1343824618906528272.jar"/>
->>>>>>> a565825875da6ed7e55688b9a34168d4eba442e2
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
->>>>>>> d1863c3471dfc4ac1fc1d87431651bed82383fef
+    <property name="surefire.real.class.path" value="C:\Users\SANTIA~1\AppData\Local\Temp\surefire17384667026247467533\surefirebooter11209782534024266936.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="11.0.7+10"/>
-    <property name="user.name" value="ADMINUSER"/>
+    <property name="java.runtime.version" value="11.0.8+10"/>
+    <property name="user.name" value="Santiago Martínez"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="AdoptOpenJDK"/>
-    <property name="localRepository" value="C:\Users\ADMINUSER\.m2\repository"/>
+    <property name="localRepository" value="C:\Users\Santiago Martínez\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
-    <property name="java.io.tmpdir" value="C:\Users\ADMINU~1\AppData\Local\Temp\"/>
-    <property name="java.version" value="11.0.7"/>
-    <property name="user.dir" value="C:\Users\ADMINUSER\documents\ciclos\lab2\Patterns"/>
+    <property name="java.io.tmpdir" value="C:\Users\SANTIA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="C:\Users\Santiago Martínez\Desktop\Universidad\Ciclos\Lab2\Patterns"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-<<<<<<< HEAD
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Santiago Martínez\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Santiago Martínez\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python38\Scripts;C:\Python38;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Program Files (x86)\dotnet;C:\Users\Santiago Martínez\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Users\Santiago Martínez\AppData\Roaming\npm;C:\Users\Santiago Martínez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
-=======
-    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.7.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\ADMINUSER\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ADMINUSER\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.7.10-hotspot\bin;C:\Program Files\Microsoft MPI\Bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\WINDOWS\System32\OpenSSH;C:\Users\ADMINUSER\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\ADMINUSER\AppData\Local\Programs\Python\Python36-32;C:\Users\ADMINUSER\AppData\Local\Microsoft\WindowsApps;C:\Users\ADMINUSER\AppData\Local\Programs\Microsoft VS Cod;C:\Program Files (x86)\dotnet;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Users\ADMINUSER\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\ADMINUSER\AppData\Local\Programs\Python\Python36-32;C:\Users\ADMINUSER\AppData\Local\Microsoft\WindowsApps;C:\Users\ADMINUSER\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ADMINUSER\.dotnet\tools;C:\Users\ADMINUSER\AppData\Local\atom\bin;C:\Users\ADMINUSER\AppData\Local\Microsoft\WindowsApps;C:\Gradle\gradle-6.5\bin;C:\Users\ADMINUSER\.dotnet\tools;C:\Users\ADMINUSER\Documents\apache-maven-3.6.3\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
-    <property name="java.vendor" value="AdoptOpenJDK"/>
->>>>>>> a565825875da6ed7e55688b9a34168d4eba442e2
+    <property name="java.library.path" value="C:\Users\Santiago Martínez\AppData\Local\Programs\AdoptOpenJDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Santiago Martínez\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Santiago Martínez\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python38\Scripts;C:\Python38;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Program Files (x86)\dotnet;C:\Users\Santiago Martínez\AppData\Local\Programs\AdoptOpenJDK\bin;C:\Users\Santiago Martínez\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Users\Santiago Martínez\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin;C:\Users\Santiago Martínez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vm.version" value="11.0.7+10"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.8+10"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-<<<<<<< HEAD
   <testcase name="shouldAnswerWithTrue" classname="edu.eci.cvds.patterns.AppTest" time="0.002"/>
-=======
-<<<<<<< HEAD
-  <testcase name="shouldAnswerWithTrue" classname="edu.eci.cvds.patterns.AppTest" time="0.002"/>
-=======
-  <testcase name="shouldAnswerWithTrue" classname="edu.eci.cvds.patterns.AppTest" time="0.005"/>
->>>>>>> d1863c3471dfc4ac1fc1d87431651bed82383fef
->>>>>>> a565825875da6ed7e55688b9a34168d4eba442e2
 </testsuite>
